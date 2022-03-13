@@ -1,0 +1,27 @@
+{
+  "name": "todos-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "mongoose": "^6.2.6",
+    "path-to-regexp": "^6.2.0",
+    "query-string": "^7.1.1"
+  }
+}
